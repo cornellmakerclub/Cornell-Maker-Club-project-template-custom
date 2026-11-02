@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Change the title and description to match your project -->
+<title>[Project name]</title>
+<meta name="description" content="[One sentence about what you built]">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--
+  How to edit this page:
+  - Replace everything in [square brackets] with your own words.
+  - To add a photo: upload it to the "images" folder, then change src="images/cover.svg" to your file name.
+  - Delete any section you don't need: everything from <section> to </section>.
+  - Change colors and fonts at the top of style.css.
+-->
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Built at the Cornell Maker Club</p>
+    <h1>[Project name]</h1>
+    <p class="lede">[What did you build, and why? One or two sentences.]</p>
+    <p class="byline">[Your name] · [Major, class year] · <a href="https://github.com/your-username">GitHub</a> · <a href="https://www.linkedin.com/in/your-name">LinkedIn</a></p>
+  </div>
+</header>
+
+<main class="wrap">
+  <figure class="cover">
+    <img src="images/cover.svg" alt="[Describe your photo]">
+  </figure>
+
+  <nav class="toc" aria-label="On this page">
+    <a href="#demo">Demo</a>
+    <a href="#parts">Parts</a>
+    <a href="#design">Design</a>
+    <a href="#build">Build log</a>
+    <a href="#files">Code and files</a>
+    <a href="#results">Results</a>
+  </nav>
+
+  <section id="demo">
+    <h2>Demo</h2>
+    <p>[A sentence about what the video shows.]</p>
+    <!-- To embed a YouTube video: replace VIDEO_ID with the part after "v=" in your video's link -->
+    <div class="video">
+      <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID" title="[Project name] demo" allowfullscreen loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <section id="parts">
+    <h2>Parts list</h2>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Part</th><th>Qty</th><th>Cost</th><th>Where to buy</th></tr></thead>
+        <tbody>
+          <tr><td>[Arduino Uno]</td><td>[1]</td><td>[$27.60]</td><td><a href="https://www.digikey.com">[DigiKey]</a></td></tr>
+          <tr><td>[Servo motor]</td><td>[2]</td><td>[$12.00]</td><td><a href="https://www.amazon.com">[Amazon]</a></td></tr>
+          <tr class="total"><td>Total</td><td></td><td>[$51.60]</td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="design">
+    <h2>Design</h2>
+    <p>[Explain how it works and the key decisions you made.]</p>
+    <figure>
+      <img src="images/cover.svg" alt="[Schematic or CAD screenshot]">
+      <figcaption>[Caption: what this diagram shows]</figcaption>
+    </figure>
+  </section>
+
+  <section id="build">
+    <h2>Build log</h2>
+    <ol class="steps">
+      <li>
+        <h3>[Step 1 title]</h3>
+        <p>[What you did.]</p>
+        <img src="images/cover.svg" alt="[Photo of step 1]">
+      </li>
+      <li>
+        <h3>[Step 2 title]</h3>
+        <p>[What you did, including what went wrong and how you fixed it.]</p>
+      </li>
+    </ol>
+  </section>
+
+  <section id="files">
+    <h2>Code and files</h2>
+    <ul>
+      <li>Code: <a href="#">[link to your code]</a></li>
+      <li>CAD / PCB files: <a href="#">[link]</a></li>
+    </ul>
+  </section>
+
+  <section id="results">
+    <h2>Results</h2>
+    <p>[How well does it work? What did you learn? What would you do differently next time?]</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Thanks to [teammates and anyone who helped]. Built at the <a href="https://makerclub.ece.cornell.edu/">Cornell Maker Club</a>, 209 Phillips Hall.</p>
+  </div>
+</footer>
+
+</body>
+</html>
